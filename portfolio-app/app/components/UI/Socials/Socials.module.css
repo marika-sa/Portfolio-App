@@ -2,3 +2,12 @@
     display: flex;
     gap: 1.5rem;
 }
+
+.link {
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.link:hover {
+    opacity: 0.4;
+}
