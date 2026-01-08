@@ -7,7 +7,7 @@ interface HeadingProps {
 
 export default function Heading({ title, subtitle }: HeadingProps) {
     return (
-        <div className="text-center">
+        <div className="text-center max-w-2xl">
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.subtitle}>
                 {subtitle}

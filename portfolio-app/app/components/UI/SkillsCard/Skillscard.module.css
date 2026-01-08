@@ -1,0 +1,29 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 2rem;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2rem 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 1.5px solid #B493EA;
+    box-shadow: 0px 4px 10px rgba(180, 147, 234, 0.5);
+    padding: 0.5rem 3rem;
+}
+
+.skillSection {
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem
+}

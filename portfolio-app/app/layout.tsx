@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./components/Navbar/Nav";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import { StarsBackground } from '@/components/animate-ui/components/backgrounds/stars';
+import { BubbleBackground } from "@/components/animate-ui/components/backgrounds/bubble";
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -22,14 +24,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={nunito.className}>
-        <Navbar />
-        <div className="container">
-          {children}
-        </div>
-        <Contact />
-        <Footer />
+      <body className={nunito.className}>
+        <BubbleBackground className="fixed inset-0 min-h-screen" interactive={true} >
+          <div className="relative w-full h-full overflow-x-hidden bg-transparent">
+            <Navbar />
+            <div className="container">
+              {children}
+            </div>
+            <Contact />
+            <Footer />
+          </div>
+        </BubbleBackground>
       </body>
     </html >
   );

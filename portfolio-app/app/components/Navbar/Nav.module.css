@@ -17,6 +17,7 @@
     align-items: center;
     padding: 0.9rem 2.2rem;
     border-radius: 30px;
+    border: 2px solid rgba(180, 147, 234, 0.15);
     background-color: rgba(234, 221, 255, 0.6);
     backdrop-filter: blur(10px);
 }
