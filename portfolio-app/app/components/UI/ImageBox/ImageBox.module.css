@@ -1,0 +1,13 @@
+.imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 20px;
+    border: 0.15rem solid #B493EA;
+    box-shadow: 0px 4px 10px rgba(180, 147, 234, 0.5);
+}
