@@ -1,4 +1,3 @@
-import styles from './Skills.module.css';
 import Heading from '../../UI/Heading/Heading';
 import SkillsCard from '../../UI/SkillsCard/SkillsCard';
 

@@ -1,8 +1,7 @@
 import styles from './SkillsCard.module.css';
 import Image from 'next/image';
 import { Tooltip, TooltipTrigger, TooltipContent } from '@/components/animate-ui/components/animate/tooltip';
-import { TooltipArrow, TooltipProvider } from '@/components/animate-ui/primitives/animate/tooltip';
-import { div } from 'motion/react-client';
+import { TooltipProvider } from '@/components/animate-ui/primitives/animate/tooltip';
 
 
 export default function SkillsCard() {
