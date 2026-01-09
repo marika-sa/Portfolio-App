@@ -1,20 +1,15 @@
 import styles from './Projects.module.css';
-import Button from '../../UI/Button/Button';
 import ProjectsCard from '../../UI/ProjectsCard/ProjectsCard';
+import React from 'react';
 
+interface ProjectsProps {
+    heading: React.ReactNode;
+}
 
-export default function Projects() {
+export default function Projects({ heading }: ProjectsProps) {
     return (
         <section className="flex flex-col items-center justify-center mt-20 mb-40">
-            <div className={styles.titleContainer}>
-                <div className={styles.headingBox}>
-                    <h2 className={styles.heading}>My Projects</h2>
-                    <p className={styles.description}>A selection of my personal projects and projects I completed during my software development apprenticeship.</p>
-                </div>
-                <div className={styles.buttonBox}>
-                    <Button text="View All Projects" href="/projects" />
-                </div>
-            </div>
+            {heading}
             <div className={`${styles.projectsContainer} width-full mt-10 flex`}>
                 <div className={`${styles.cardBox}`}>
                     < ProjectsCard
