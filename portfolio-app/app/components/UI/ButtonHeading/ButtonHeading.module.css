@@ -1,0 +1,25 @@
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+
+.headingBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}

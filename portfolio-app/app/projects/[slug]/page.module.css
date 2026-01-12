@@ -1,0 +1,13 @@
+.backLink {}
+
+.backContainer {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #B493EA;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.backContainer:hover {
+    scale: 105%;
+}
