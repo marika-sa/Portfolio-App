@@ -17,17 +17,17 @@ export default function Projects({ heading }: ProjectsProps) {
                         imageWidth={650}
                         imageHeight={200}
                         projectTitle="Payroll Manager"
-                        href="/portfolio"
+                        href="/projects/payroll-manager"
                         icons={[{ src: "/icons/python.png", alt: "Python" }]}
                         iconWidth={30}
                         iconHeight={30}
                     />
                     < ProjectsCard
-                        backgroundImage="/images/banking-app.png"
+                        backgroundImage="/images/coming-soon.png"
                         imageWidth={650}
                         imageHeight={200}
                         projectTitle="Task Tracker"
-                        href="/portfolio"
+                        href="/coming-soon"
                         icons={[{ src: "/icons/java.png", alt: "Java" }, { src: "/icons/springboot.png", alt: "Spring Boot" }, { src: "/icons/mysql.png", alt: "MySQL" }]}
                         iconWidth={30}
                         iconHeight={30}
@@ -39,7 +39,7 @@ export default function Projects({ heading }: ProjectsProps) {
                         imageWidth={650}
                         imageHeight={200}
                         projectTitle="Banking App"
-                        href="/portfolio"
+                        href="/projects/banking-app"
                         icons={[{ src: "/icons/csharp.png", alt: "C#" }, { src: "/icons/dotnet.png", alt: ".NET" }, { src: "/icons/mysql.png", alt: "MySQL" }]}
                         iconWidth={30}
                         iconHeight={30}
@@ -49,7 +49,7 @@ export default function Projects({ heading }: ProjectsProps) {
                         imageWidth={650}
                         imageHeight={200}
                         projectTitle="Messaging App"
-                        href="/portfolio"
+                        href="/projects/messaging-app"
                         icons={[{ src: "/icons/csharp.png", alt: "C#" }, { src: "/icons/dotnet.png", alt: ".NET" }, { src: "/icons/mysql.png", alt: "MySQL" }]}
                         iconWidth={30}
                         iconHeight={30}

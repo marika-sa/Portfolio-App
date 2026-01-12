@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className={styles.links}>
                     <Link href="/" className={`${styles.link} ${pathname === '/' ? styles.active : ''}`}>Home</Link>
                     <Link href="/about" className={`${styles.link} ${pathname === '/about' ? styles.active : ''}`}>About</Link>
-                    <Link href="/projects" className={`${styles.link} ${pathname === '/projects' ? styles.active : ''}`}>Projects</Link>
+                    <Link href="/projects" className={`${styles.link} ${pathname.startsWith('/projects') ? styles.active : ''}`}>Projects</Link>
                 </div>
             </nav>
         </header>
