@@ -30,9 +30,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 <VideoBox videoLink={project.video} description={project.title} />
             </div>
             <div>
-                <Copy subtitle="Project Requirements" text={[project.requirements]} />
-                <Copy subtitle="Development Process" text={[project.process]} />
-                <Copy subtitle="Outcomes" text={[project.outcomes]} />
+                <Copy subtitle="Project Requirements" text={project.requirements} />
+                <Copy subtitle="Development Process" text={project.process} />
+                <Copy subtitle="Outcomes" text={project.outcomes} />
             </div>
         </section>
     );
