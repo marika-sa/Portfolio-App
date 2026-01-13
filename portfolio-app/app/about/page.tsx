@@ -3,7 +3,7 @@ import ImageBox from "../components/UI/ImageBox/ImageBox";
 import SkillsCard from "../components/UI/SkillsCard/SkillsCard";
 import Copy from "../components/UI/Copy/Copy";
 
-export default function Home() {
+export default function About() {
     return (
         <main className="flex w-full flex min-h-screen flex-col items-center space-evenly">
             <section className="flex flex-col items-center justify-center pt-0 mt-20 mb-20">
