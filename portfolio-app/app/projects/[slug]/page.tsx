@@ -6,6 +6,12 @@ import ProjectHeading from "../../components/UI/ProjectHeading/ProjectHeading";
 import Copy from "../../components/UI/Copy/Copy";
 import Link from "next/link";
 
+export async function generateStaticParams() {
+    return projects.map((project) => ({
+        slug: project.slug,
+    }));
+}
+
 interface ProjectPageProps {
     params: Promise<{ slug: string }>;
 }

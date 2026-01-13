@@ -104,44 +104,5 @@ export default function SkillsCard() {
                 </TooltipProvider>
             </div>
         </div>
-        // <div className={styles.skillsContainer}>
-        //     <div className={styles.skillSection}>
-        //         <h3>Frontend Tech</h3>
-        //         <div className={`${styles.sideSkills} basis-1/3`}>
-        //             <Tooltip>
-        //                 <TooltipTrigger>
-        //                     <Image src="/icons/javascript-1.png" alt="JavaScript" width={70} height={70} />
-        //                 </TooltipTrigger>
-        //                 <TooltipContent>JavaScript</TooltipContent>
-        //             </Tooltip>
-        //             <Tooltip >
-        //                 <Image src="/icons/react.png" alt="React" width={70} height={70} />
-        //             </Tooltip>
-
-        //             <Image src="/icons/typescript.png" alt="TypeScript" width={70} height={70} />
-        //             <Image src="/icons/nextjs.png" alt="Next.js" width={70} height={70} />
-        //         </div>
-        //     </div>
-        //     <div className={styles.skillSection}>
-        //         <h3>Backend Tech</h3>
-        //         <div className={`${styles.centerSkills} basis-1/3`}>
-        //             <Image src="/icons/nodejs.png" alt="Node.js" width={70} height={70} />
-        //             <Image src="/icons/csharp.png" alt="C#" width={70} height={70} />
-        //             <Image src="/icons/dotnet.png" alt=".NET" width={70} height={70} />
-        //             <Image src="/icons/python.png" alt="Python" width={70} height={70} />
-        //             <Image src="/icons/java.png" alt="Java" width={70} height={70} />
-        //             <Image src="/icons/springboot.png" alt="Spring Boot" width={70} height={70} />
-        //         </div>
-        //     </div>
-        //     <div className={styles.skillSection}>
-        //         <h3>Other Tech</h3>
-        //         <div className={`${styles.sideSkills} basis-1/3`}>
-        //             <Image src="/icons/docker.png" alt="Docker" width={70} height={70} />
-        //             <Image src="/icons/mysql.png" alt="MySQL" width={70} height={70} />
-        //             <Image src="/icons/playwright.png" alt="Playwright" width={70} height={70} />
-        //             <Image src="/icons/percy.png" alt="Percy" width={70} height={70} />
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
