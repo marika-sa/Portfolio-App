@@ -26,7 +26,7 @@ export default function Projects({ heading }: ProjectsProps) {
                         backgroundImage="/images/coming-soon.png"
                         imageWidth={650}
                         imageHeight={200}
-                        projectTitle="Task Tracker"
+                        projectTitle="Coming Soon"
                         href="/coming-soon"
                         icons={[{ src: "/icons/java.png", alt: "Java" }, { src: "/icons/springboot.png", alt: "Spring Boot" }, { src: "/icons/mysql.png", alt: "MySQL" }]}
                         iconWidth={30}
