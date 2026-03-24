@@ -31,7 +31,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     <img src="/icons/left-arrow.png" alt="Back to Projects" className={"inline-block w-3 h-3 mr-3"} />Projects
                 </Link>
             </div>
-            <ProjectHeading projectTitle={project.title} description={project.description} tag={project.tag} icons={project.icons} />
+            <ProjectHeading projectTitle={project.title} description={project.description} tag={project.tag} icons={project.icons} github={project.github} />
             <div className="pt-0 mt-20 mb-20">
                 <VideoBox videoLink={project.video} description={project.title} />
             </div>

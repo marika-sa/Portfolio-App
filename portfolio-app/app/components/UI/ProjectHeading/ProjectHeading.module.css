@@ -48,3 +48,13 @@
     align-items: center;
     gap: 1rem;
 }
+
+.link {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.link:hover {
+    opacity: 0.45;
+    scale: 110%;
+}

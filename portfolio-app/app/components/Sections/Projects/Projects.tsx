@@ -23,12 +23,12 @@ export default function Projects({ heading }: ProjectsProps) {
                         iconHeight={30}
                     />
                     < ProjectsCard
-                        backgroundImage="/images/coming-soon.png"
+                        backgroundImage="/images/hook-loop.png"
                         imageWidth={650}
                         imageHeight={200}
-                        projectTitle="Coming Soon"
-                        href="/coming-soon"
-                        icons={[{ src: "/icons/java.png", alt: "Java" }, { src: "/icons/springboot.png", alt: "Spring Boot" }, { src: "/icons/mysql.png", alt: "MySQL" }]}
+                        projectTitle="Hook Loop"
+                        href="/projects/hook-loop"
+                        icons={[{ src: "/icons/nodejs.png", alt: "Node.js" }, { src: "/icons/react.png", alt: "React" }, { src: "/icons/mongo.png", alt: "MongoDB" }]}
                         iconWidth={30}
                         iconHeight={30}
                     />
